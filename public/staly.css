@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #008793;
+  background-size: cover;
+  height: 100vh;
+}
+
+h1 {
+  font-family: "Bebas Neue", cursive;
+  font-family: "Carter One", cursive;
+  color: white;
+}
+
+.logo {
+  margin-top: 6px;
+  width: 60px;
+  height: 40px;
+}
+
+.card {
+  width: 299px;
+  height: 350px;
+  border: none;
+  border-radius: 8px;
+  margin: 15px;
+  margin-right: 25px;
+  background-color: #008f7a;
+  color: white;
+}
+
+.wrapper {
+  width: 1300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card h2,
+p {
+  text-align: center;
+  margin: 20px;
+  font-family: "Bebas Neue", cursive;
+}
+.card img {
+  border-radius: 8px 8px 0 0;
+}
+
+input {
+  margin-left: 50px;
+  border: none;
+  border-radius: 7px 0 0 7px;
+  width: 1100px;
+  margin-top: 20px;
+  font-family: "Fira Mono", "Andale Mono", "Consolas", monospace;
+  font-style: italic;
+}
+
+.card_body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  text-align: center;
+  margin-top: 60px;
+  height: 450px;
+  width: 380px;
+  position: relative;
+  border-radius: 12px;
+  padding: 100px;
+}
+
+.btn {
+  position: relative;
+  top: -9px;
+  height: 40px;
+  border-radius: 0 7px 7px 0;
+}
